@@ -1,0 +1,39 @@
+#comment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 1px #fff;
+}
+
+#comment-content {
+    width: 90%;
+    padding: 1%;
+    border-radius: 4px;
+    background: transparent;
+}
+
+#comment-author {
+    width: 100%;
+    padding: 0.1%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#comment-text {
+    padding: 1%;
+    border-radius: 8px;
+    background: rgb(215, 230, 230);
+}
+
+#timestamp-block {
+    padding-right: 0.5%;
+    font-size: 11pt;
+    font-style: italic;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #696969;
+}
